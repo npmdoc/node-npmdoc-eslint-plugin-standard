@@ -1,0 +1,640 @@
+<html><head></head><body><div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a href="https://github.com/xjamundx/eslint-plugin-standard#readme">eslint-plugin-standard (v3.0.1)</a>
+</h1>
+<h4>ESlint Plugin for the Standard Linter</h4>
+<div class="apidocSectionDiv"><a href="#apidoc.tableOfContents" id="apidoc.tableOfContents"><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.eslint-plugin-standard">module eslint-plugin-standard</a><ol>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">eslint-plugin-standard.</span>array_bracket_even_spacing</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">eslint-plugin-standard.</span>computed_property_even_spacing</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">eslint-plugin-standard.</span>no_callback_literal</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">eslint-plugin-standard.</span>object_curly_even_spacing</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">eslint-plugin-standard.</span>rules</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">eslint-plugin-standard.</span>rulesConfig</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.eslint-plugin-standard.array_bracket_even_spacing">module eslint-plugin-standard.array_bracket_even_spacing</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.eslint-plugin-standard.array_bracket_even_spacing.create">
+            function <span class="apidocSignatureSpan">eslint-plugin-standard.array_bracket_even_spacing.</span>create
+            <span class="apidocSignatureSpan">(context)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">eslint-plugin-standard.array_bracket_even_spacing.</span>meta</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.eslint-plugin-standard.computed_property_even_spacing">module eslint-plugin-standard.computed_property_even_spacing</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.eslint-plugin-standard.computed_property_even_spacing.create">
+            function <span class="apidocSignatureSpan">eslint-plugin-standard.computed_property_even_spacing.</span>create
+            <span class="apidocSignatureSpan">(context)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">eslint-plugin-standard.computed_property_even_spacing.</span>meta</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.eslint-plugin-standard.no_callback_literal">module eslint-plugin-standard.no_callback_literal</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.eslint-plugin-standard.no_callback_literal.create">
+            function <span class="apidocSignatureSpan">eslint-plugin-standard.no_callback_literal.</span>create
+            <span class="apidocSignatureSpan">(context)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">eslint-plugin-standard.no_callback_literal.</span>meta</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.eslint-plugin-standard.object_curly_even_spacing">module eslint-plugin-standard.object_curly_even_spacing</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.eslint-plugin-standard.object_curly_even_spacing.create">
+            function <span class="apidocSignatureSpan">eslint-plugin-standard.object_curly_even_spacing.</span>create
+            <span class="apidocSignatureSpan">(context)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">eslint-plugin-standard.object_curly_even_spacing.</span>meta</span>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.eslint-plugin-standard" id="apidoc.module.eslint-plugin-standard">module eslint-plugin-standard</a></h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.eslint-plugin-standard.array_bracket_even_spacing" id="apidoc.module.eslint-plugin-standard.array_bracket_even_spacing">module eslint-plugin-standard.array_bracket_even_spacing</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.eslint-plugin-standard.array_bracket_even_spacing.create" id="apidoc.element.eslint-plugin-standard.array_bracket_even_spacing.create">
+        function <span class="apidocSignatureSpan">eslint-plugin-standard.array_bracket_even_spacing.</span>create
+        <span class="apidocSignatureSpan">(context)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">create = function (context) {
+  var spaced = context.options[0] === 'always'
+  var either = context.options[0] === 'either'
+
+<span class="apidocCodeCommentSpan">  /**
+   * Determines whether an option is set, relative to the spacing option.
+   * If spaced is "always", then check whether option is set to false.
+   * If spaced is "never", then check whether option is set to true.
+   * @param {Object} option - The option to exclude.
+   * @returns {boolean} Whether or not the property is excluded.
+   */
+</span>  function isOptionSet (option) {
+    return context.options[1] != null ? context.options[1][option] === !spaced : false
+  }
+
+  var options = {
+    either: either,
+    spaced: spaced,
+    singleElementException: isOptionSet('singleValue'),
+    objectsInArraysException: isOptionSet('objectsInArrays'),
+    arraysInArraysException: isOptionSet('arraysInArrays')
+  }
+
+  // --------------------------------------------------------------------------
+  // Helpers
+  // --------------------------------------------------------------------------
+
+  /**
+   * Determines whether two adjacent tokens are have whitespace between them.
+   * @param {Object} left - The left token object.
+   * @param {Object} right - The right token object.
+   * @returns {boolean} Whether or not there is space between the tokens.
+   */
+  function isSpaced (left, right) {
+    return left.range[1] &lt; right.range[0]
+  }
+
+  /**
+   * Determines whether two adjacent tokens are on the same line.
+   * @param {Object} left - The left token object.
+   * @param {Object} right - The right token object.
+   * @returns {boolean} Whether or not the tokens are on the same line.
+   */
+  function isSameLine (left, right) {
+    return left.loc.start.line === right.loc.start.line
+  }
+
+  /**
+   * Reports that there shouldn't be a space after the first token
+   * @param {ASTNode} node - The node to report in the event of an error.
+   * @param {Token} token - The token to use for the report.
+   * @returns {void}
+   */
+  function reportNoBeginningSpace (node, token) {
+    context.report(node, token.loc.start,
+      "There should be no space after '" + token.value + "'")
+  }
+
+  /**
+   * Reports that there shouldn't be a space before the last token
+   * @param {ASTNode} node - The node to report in the event of an error.
+   * @param {Token} token - The token to use for the report.
+   * @returns {void}
+   */
+  function reportNoEndingSpace (node, token) {
+    context.report(node, token.loc.start,
+      "There should be no space before '" + token.value + "'")
+  }
+
+  /**
+   * Reports that there should be a space after the first token
+   * @param {ASTNode} node - The node to report in the event of an error.
+   * @param {Token} token - The token to use for the report.
+   * @returns {void}
+   */
+  function reportRequiredBeginningSpace (node, token) {
+    context.report(node, token.loc.start,
+      "A space is required after '" + token.value + "'")
+  }
+
+  /**
+   * Reports that there should be a space before the last token
+   * @param {ASTNode} node - The node to report in the event of an error.
+   * @param {Token} token - The token to use for the report.
+   * @returns {void}
+   */
+  function reportRequiredEndingSpace (node, token) {
+    context.report(node, token.loc.start,
+      "A space is required before '" + token.value + "'")
+  }
+
+  /**
+   * Checks if a start and end brace in a node are spaced evenly
+   * and not too long (&gt;1 space)
+   * @param node
+   * @param start
+   * @param end
+   * @returns {boolean}
+   */
+  function isEvenlySpacedAndNotTooLong (node, start, end) {
+    var expectedSpace = start[1].range[0] - start[0].range[1]
+    var endSpace = end[1].range[0] - end[0].range[1]
+    return endSpace === expectedSpace &amp;&amp; endSpace &lt;= 1
+  }
+
+  /**
+   * Validates the spacing around array brackets
+   * @param {ASTNode} node - The node we're checking for spacing
+   * @returns {void}
+   */
+  function validateArraySpacing (node) {
+    if (node.elements.length === 0) {
+      return
+    }
+
+    var first = context.getFirstToken(node)
+    var second = context.getFirstToken(node, 1)
+    var penultimate = context.getLastToken(node, 1)
+    var last = ...</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.eslint-plugin-standard.computed_property_even_spacing" id="apidoc.module.eslint-plugin-standard.computed_property_even_spacing">module eslint-plugin-standard.computed_property_even_spacing</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.eslint-plugin-standard.computed_property_even_spacing.create" id="apidoc.element.eslint-plugin-standard.computed_property_even_spacing.create">
+        function <span class="apidocSignatureSpan">eslint-plugin-standard.computed_property_even_spacing.</span>create
+        <span class="apidocSignatureSpan">(context)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">create = function (context) {
+  var propertyNameMustBeSpaced = context.options[0] === 'always' // default is "never"
+  var propertyNameMustBeEven = context.options[0] === 'even' // default is "never"
+
+  // --------------------------------------------------------------------------
+  // Helpers
+  // --------------------------------------------------------------------------
+
+<span class="apidocCodeCommentSpan">  /**
+   * Determines whether two adjacent tokens are have whitespace between them.
+   * @param {Object} left - The left token object.
+   * @param {Object} right - The right token object.
+   * @returns {boolean} Whether or not there is space between the tokens.
+   */
+</span>  function isSpaced (left, right) {
+    return left.range[1] &lt; right.range[0]
+  }
+
+  /**
+   * Determines whether two adjacent tokens are on the same line.
+   * @param {Object} left - The left token object.
+   * @param {Object} right - The right token object.
+   * @returns {boolean} Whether or not the tokens are on the same line.
+   */
+  function isSameLine (left, right) {
+    return left.loc.start.line === right.loc.start.line
+  }
+
+  /**
+   * Reports that there shouldn't be a space after the first token
+   * @param {ASTNode} node - The node to report in the event of an error.
+   * @param {Token} token - The token to use for the report.
+   * @returns {void}
+   */
+  function reportNoBeginningSpace (node, token) {
+    context.report(node, token.loc.start,
+      "There should be no space after '" + token.value + "'")
+  }
+
+  /**
+   * Reports that there shouldn't be a space before the last token
+   * @param {ASTNode} node - The node to report in the event of an error.
+   * @param {Token} token - The token to use for the report.
+   * @returns {void}
+   */
+  function reportNoEndingSpace (node, token) {
+    context.report(node, token.loc.start,
+      "There should be no space before '" + token.value + "'")
+  }
+
+  /**
+   * Reports that there should be a space after the first token
+   * @param {ASTNode} node - The node to report in the event of an error.
+   * @param {Token} token - The token to use for the report.
+   * @returns {void}
+   */
+  function reportRequiredBeginningSpace (node, token) {
+    context.report(node, token.loc.start,
+      "A space is required after '" + token.value + "'")
+  }
+
+  /**
+   * Reports that there should be a space before the last token
+   * @param {ASTNode} node - The node to report in the event of an error.
+   * @param {Token} token - The token to use for the report.
+   * @returns {void}
+   */
+  function reportRequiredEndingSpace (node, token) {
+    context.report(node, token.loc.start,
+      "A space is required before '" + token.value + "'")
+  }
+
+  /**
+   * Returns a function that checks the spacing of a node on the property name
+   * that was passed in.
+   * @param {String} propertyName The property on the node to check for spacing
+   * @returns {Function} A function that will check spacing on a node
+   */
+  function checkSpacing (propertyName) {
+    return function (node) {
+      if (!node.computed) {
+        return
+      }
+
+      var property = node[propertyName]
+
+      var before = context.getTokenBefore(property)
+      var first = context.getFirstToken(property)
+      var last = context.getLastToken(property)
+      var after = context.getTokenAfter(property)
+      var startSpace, endSpace
+
+      if (propertyNameMustBeEven) {
+        if (!isSameLine(before, after)) {
+          context.report(node, 'Expected "[" and "]" to be on the same line')
+          return
+        }
+        startSpace = first.loc.start.column - before.loc.end.column
+        endSpace = after.loc.start.column - last.loc.end.column
+
+        if (startSpace !== endSpace || startSpace &gt; 1) {
+          context.report(node, 'Expected 1 or 0 spaces around "[" and "]"')
+        }
+
+        return
+      }
+
+      if (isSameLine(before, first)) {
+        if (propertyNameMustBeSpaced) {
+          if (!isSpaced(before, first) &amp;&amp; isSameLine(before, first)) {
+            reportRequiredBeginningSpace(node, before)
+          }
+        } else {
+          if (isSpaced(before, first)) {
+            reportNoBeginningSpace(nod ...</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.eslint-plugin-standard.no_callback_literal" id="apidoc.module.eslint-plugin-standard.no_callback_literal">module eslint-plugin-standard.no_callback_literal</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.eslint-plugin-standard.no_callback_literal.create" id="apidoc.element.eslint-plugin-standard.no_callback_literal.create">
+        function <span class="apidocSignatureSpan">eslint-plugin-standard.no_callback_literal.</span>create
+        <span class="apidocSignatureSpan">(context)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">create = function (context) {
+  var callbackNames = context.options[0] || ['callback', 'cb']
+
+  function isCallback (name) {
+    return callbackNames.indexOf(name) &gt; -1
+  }
+
+  return {
+
+    CallExpression: function (node) {
+      var errorArg = node.arguments[0]
+      if (errorArg &amp;&amp; isCallback(node.callee.name)) {
+        if (!couldBeError(errorArg)) {
+          context.report(node, 'Unexpected literal in error position of callback.')
+        } else if (node.arguments.length &gt; 1 &amp;&amp; errorArg.type === 'Identifier') {
+          if (errorArg.name === 'undefined') {
+            context.report(node, 'Expected "null" instead of "undefined" in error position of callback.')
+          }
+        }
+      }
+    }
+  }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.eslint-plugin-standard.object_curly_even_spacing" id="apidoc.module.eslint-plugin-standard.object_curly_even_spacing">module eslint-plugin-standard.object_curly_even_spacing</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.eslint-plugin-standard.object_curly_even_spacing.create" id="apidoc.element.eslint-plugin-standard.object_curly_even_spacing.create">
+        function <span class="apidocSignatureSpan">eslint-plugin-standard.object_curly_even_spacing.</span>create
+        <span class="apidocSignatureSpan">(context)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">create = function (context) {
+  var spaced = context.options[0] === 'always'
+  var either = context.options[0] === 'either'
+
+<span class="apidocCodeCommentSpan">  /**
+   * Determines whether an option is set, relative to the spacing option.
+   * If spaced is "always", then check whether option is set to false.
+   * If spaced is "never", then check whether option is set to true.
+   * @param {Object} option - The option to exclude.
+   * @returns {boolean} Whether or not the property is excluded.
+   */
+</span>  function isOptionSet (option) {
+    return context.options[1] != null ? context.options[1][option] === !spaced : false
+  }
+
+  var options = {
+    spaced: spaced,
+    either: either,
+    arraysInObjectsException: isOptionSet('arraysInObjects'),
+    objectsInObjectsException: isOptionSet('objectsInObjects')
+  }
+
+  // --------------------------------------------------------------------------
+  // Helpers
+  // --------------------------------------------------------------------------
+
+  /**
+   * Determines whether two adjacent tokens are have whitespace between them.
+   * @param {Object} left - The left token object.
+   * @param {Object} right - The right token object.
+   * @returns {boolean} Whether or not there is space between the tokens.
+   */
+  function isSpaced (left, right) {
+    return left.range[1] &lt; right.range[0]
+  }
+
+  /**
+   * Determines whether two adjacent tokens are on the same line.
+   * @param {Object} left - The left token object.
+   * @param {Object} right - The right token object.
+   * @returns {boolean} Whether or not the tokens are on the same line.
+   */
+  function isSameLine (left, right) {
+    return left.loc.start.line === right.loc.start.line
+  }
+
+  /**
+   * Reports that there shouldn't be a space after the first token
+   * @param {ASTNode} node - The node to report in the event of an error.
+   * @param {Token} token - The token to use for the report.
+   * @returns {void}
+   */
+  function reportNoBeginningSpace (node, token) {
+    context.report(node, token.loc.start,
+      "There should be no space after '" + token.value + "'")
+  }
+
+  /**
+   * Reports that there shouldn't be a space before the last token
+   * @param {ASTNode} node - The node to report in the event of an error.
+   * @param {Token} token - The token to use for the report.
+   * @returns {void}
+   */
+  function reportNoEndingSpace (node, token) {
+    context.report(node, token.loc.start,
+      "There should be no space before '" + token.value + "'")
+  }
+
+  /**
+   * Reports that there should be a space after the first token
+   * @param {ASTNode} node - The node to report in the event of an error.
+   * @param {Token} token - The token to use for the report.
+   * @returns {void}
+   */
+  function reportRequiredBeginningSpace (node, token) {
+    context.report(node, token.loc.start,
+      "A space is required after '" + token.value + "'")
+  }
+
+  /**
+   * Reports that there should be a space before the last token
+   * @param {ASTNode} node - The node to report in the event of an error.
+   * @param {Token} token - The token to use for the report.
+   * @returns {void}
+   */
+  function reportRequiredEndingSpace (node, token) {
+    context.report(node, token.loc.start,
+      "A space is required before '" + token.value + "'")
+  }
+
+  /**
+   * Checks if a start and end brace in a node are spaced evenly
+   * and not too long (&gt;1 space)
+   * @param node
+   * @param start
+   * @param end
+   * @returns {boolean}
+   */
+  function isEvenlySpacedAndNotTooLong (node, start, end) {
+    var expectedSpace = start[1].range[0] - start[0].range[1]
+    var endSpace = end[1].range[0] - end[0].range[1]
+    return endSpace === expectedSpace &amp;&amp; endSpace &lt;= 1
+  }
+
+  /**
+   * Determines if spacing in curly braces is valid.
+   * @param {ASTNode} node The AST node to check.
+   * @param {Token} first The first token to check (should be the opening brace)
+   * @param {Token} second The second token to check (should be first after the opening brace)
+   * @param {Token} penultimate The penultimate token to check (should be last before closing brace)
+   * @param {Token} last The last token to check (should be closing br ...</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
+</body></html>
