@@ -1,6 +1,6 @@
 # npmdoc-eslint-plugin-standard
 
-#### api documentation for  [eslint-plugin-standard (v3.0.1)](https://github.com/xjamundx/eslint-plugin-standard#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-eslint-plugin-standard.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-eslint-plugin-standard) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-eslint-plugin-standard.svg)](https://travis-ci.org/npmdoc/node-npmdoc-eslint-plugin-standard)
+#### basic api documentation for  [eslint-plugin-standard (v3.0.1)](https://github.com/xjamundx/eslint-plugin-standard#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-eslint-plugin-standard.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-eslint-plugin-standard) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-eslint-plugin-standard.svg)](https://travis-ci.org/npmdoc/node-npmdoc-eslint-plugin-standard)
 
 #### ESlint Plugin for the Standard Linter
 
@@ -21,19 +21,25 @@
 ```json
 
 {
-    "name": "eslint-plugin-standard",
-    "description": "ESlint Plugin for the Standard Linter",
-    "version": "3.0.1",
-    "author": "Jamund Ferguson <jamund@gmail.com>",
+    "author": {
+        "name": "Jamund Ferguson"
+    },
     "bugs": {
         "url": "https://github.com/xjamundx/eslint-plugin-standard/issues"
     },
     "dependencies": {},
+    "description": "ESlint Plugin for the Standard Linter",
     "devDependencies": {
         "eslint": "^3.19.0",
         "mocha": "^3.2.0",
         "standard": "*"
     },
+    "directories": {},
+    "dist": {
+        "shasum": "34d0c915b45edc6f010393c7eef3823b08565cf2",
+        "tarball": "https://registry.npmjs.org/eslint-plugin-standard/-/eslint-plugin-standard-3.0.1.tgz"
+    },
+    "gitHead": "67f065624a67ac2265159bed91d0471448b00c88",
     "homepage": "https://github.com/xjamundx/eslint-plugin-standard#readme",
     "keywords": [
         "eslint",
@@ -41,6 +47,19 @@
     ],
     "license": "MIT",
     "main": "index.js",
+    "maintainers": [
+        {
+            "name": "xjamundx"
+        },
+        {
+            "name": "feross"
+        }
+    ],
+    "name": "eslint-plugin-standard",
+    "optionalDependencies": {},
+    "peerDependencies": {
+        "eslint": ">=3.19.0"
+    },
     "repository": {
         "type": "git",
         "url": "git+https://github.com/xjamundx/eslint-plugin-standard.git"
@@ -48,9 +67,8 @@
     "scripts": {
         "test": "standard && mocha tests/"
     },
-    "peerDependencies": {
-        "eslint": ">=3.19.0"
-    }
+    "version": "3.0.1",
+    "bin": {}
 }
 ```
 
